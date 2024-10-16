@@ -1,0 +1,63 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+        .match {
+            margin-bottom: 20px;
+        }
+        .match h2 {
+            margin: 0 0 10px;
+        }
+        .odds {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .odds button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .odds button:hover {
+            background-color: #0056b3;
+        }
+        .add-match {
+            margin-top: 20px;
+        }
+        .add-match input {
+            margin: 5px;
+            padding: 10px;
+            width: calc(100% - 22px);
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .add-match button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .add-match button:hover {
+            background-color: #218838;
+        }

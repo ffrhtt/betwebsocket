@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahis Ekranı</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@7.0.0/bundles/stomp.umd.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="container">
+    <div id="matches"></div>
+    <div class="add-match">
+        <input type="text" id="league" placeholder="Lig">
+        <input type="text" id="homeTeam" placeholder="Ev Sahibi Takım">
+        <input type="text" id="guestTeam" placeholder="Deplasman Takımı">
+        <input type="date" id="matchDate" placeholder="Maç Tarihi">
+        <button onclick="addMatch()">Maç Ekle</button>
+    </div>
+</div>
+
+<script>
+</script>
+</body>
+</html>
